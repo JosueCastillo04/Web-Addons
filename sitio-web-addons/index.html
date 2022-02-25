@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/8e534c4fcb.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="img\icon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>DarkSVdev</title>
+    <style>
+      html{
+        position:relative ;
+        min-height:100vh; ;
+      }
+      #frame_father{
+        height: 80%;
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+    <!-- Navbar creado de cero -->
+    <nav class="col-xl-12 navbar navbar-expand-lg navbar navbar-light  border-top border-bottom" style="background-color: #cde3f3;">
+        <button type="button" class="btn col-sm-4" style="background-color: #cde3f3;" >
+          <img class=" mb-1 img-fluid " src="./img/icon.ico" width="50" height="50" alt="logo">
+           <span class=" badge badge-light " style="background-color: #cde3f3;"><h4>DarkSVdev</h4></span>
+        </button>
+  
+        <!-- BOTON RESPONSIVE MOBILE   -->
+        <button id="collapse" class="navbar-toggler col-sm-1" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="container"  ></div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a href="./view/content/Home.html" target="iframe_father" class="btn btn-dark mr-1 ml-1 active" role="button" aria-pressed="true">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://mcpedl.com/user/darkslayer503" target="_blank" rel="noopener noreferrer" class="btn btn-dark mr-1 ml-1 " role="button" aria-pressed="true">Mcpedl</a>
+                </li>
+                <li class="nav-item">
+              <li class="nav-item">
+                <a href="./view/content/Contact.html" target="iframe_father" class="btn btn-dark mr-1 ml-1 " role="button" aria-pressed="true">Contact</a>
+              </li>
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a href="./view/content/About_Page.html" target="iframe_father" class="btn btn-dark mr-1 ml-1 " role="button" aria-pressed="true">About Page</a>
+                  </li>
+                  <li class="nav-item">
+              
+              </li>
+              </ul>
+          </div>
+    </nav>
+      <!-- menu mobile responsive -->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          
+          
+            <a id="nav-button1" type="button" href="./view/content/Home.html" target="iframe_father"  class="btn btn-lg btn-block mr-1 ml-1 nav-buttons-responsive" >
+              Home
+            </a>
+          
+
+          <a id="nav-button2" type="button" href="https://mcpedl.com/user/darkslayer503" target="_blank" rel="noopener noreferrer"  class="btn  btn-lg btn-block mr-1 ml-1 nav-buttons-responsive " role="button" aria-pressed="true">Mcpedl</a>
+          <a id="nav-button3" type="button" href="./view/content/Contact.html" target="iframe_father"  class="btn  btn-lg btn-block mr-1 ml-1 nav-buttons-responsive " role="button" aria-pressed="true">Contact</a>
+          <a id="nav-button4" type="button" href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="iframe_father" class="btn  btn-lg btn-block mr-1 ml-1  nav-buttons-responsive" role="button" aria-pressed="true">About Page</a>
+          
+        </div>
+      </div>
+      <!-- menu mobile responsive -->
+
+      <!-- container fluid  -->
+      <iframe marginwidth="0" name="iframe_father" style="height: 100vh;width: 100%;border: none;margin-bottom: 5px;" src="./view/content/Home.html" scrolling="yes"   title="iframe_father"></iframe>
+      <!-- Fin container fluid -->
+
+
+      <!-- footer o pie de pagina -->
+        <footer id="footer" class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-2 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-0">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/watch?v=PhsGfffU9Qw&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbA&index=5" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="noopener noreferrer" href="https://github.com/JosueCastillo04" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Josue_Castillo</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      <!-- Fin footer o pie de pagina -->
+      
+    
+</body>
+
+<script src="./js/index.js">
+ 
+</script>
+</html>

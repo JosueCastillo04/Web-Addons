@@ -1,0 +1,16 @@
+#card-container{
+    width: 85%;
+    margin-top: 5%;
+}
+.card-title{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#titulo{
+    margin: auto;
+    width: 65%;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#form{
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.2);
+}
